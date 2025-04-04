@@ -1,0 +1,32 @@
+h1 {
+    color: blue;
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    color: green;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.5;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(235, 60, 29);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
