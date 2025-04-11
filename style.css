@@ -14,7 +14,7 @@ p {
 button {
     display: block;
     margin: auto;
-    margin-top: 35px;
+    margin-top: 40px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -29,4 +29,47 @@ button {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+
+h2 {
+    color: blue;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.image-item {
+    flex: 1 1 calc(25% - 20px);
+    max-width: 300px;
+    text-align: center;
+    margin: 0 8px;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-item p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+    text-align: center;
+}
+
+.image-item a {
+    text-decoration: none;
+    color: green;
+}
+
+.image-item a:hover {
+    text-decoration: underline;
 }
